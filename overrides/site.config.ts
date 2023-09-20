@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'imbytecat',
-  domain: 'www.imbytecat.com',
+  name: 'kisaki',
+  domain: 'www.bb.ci',
   author: 'imbytecat',
 
   // open graph metadata (optional)
