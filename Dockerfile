@@ -15,8 +15,8 @@ COPY --from=deps /opt/nextjs-notion-starter-kit/ ./
 COPY overrides/ ./
 RUN --mount=type=secret,id=REDIS_HOST \
   --mount=type=secret,id=REDIS_PASSWORD \
-  export REDIS_HOST=$(cat /run/secrets/REDIS_HOST) && \
-  export REDIS_PASSWORD=$(cat /run/secrets/REDIS_PASSWORD) && \
+  export REDIS_HOST=redis \
+  export REDIS_PASSWORD=123456 \
   yarn build
 
 FROM node:lts-alpine as runner
