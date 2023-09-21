@@ -43,10 +43,10 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/about': 'db92214d309247369334059e66425725',
-    '/links': '3b6da48e18014cdebdd27682b0a573e3',
-    '/archives': '6ebf8ec165514ef69b0732899c91380f',
-    '/reading': 'ec340388f1434e059bf3bdcf64546e4a'
+    '/about': '6df2983d2d8d4fe1bd95a96b404babb9',
+    '/links': '6df2983d2d8d4fe1bd95a96b404babb9',
+    '/archives': '6df2983d2d8d4fe1bd95a96b404babb9',
+    '/reading': '6df2983d2d8d4fe1bd95a96b404babb9'
   },
   // pageUrlOverrides: null,
 
@@ -57,11 +57,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'Home',
-      pageId: '63905c45dbd44b7da4c87bd176c0451a'
+      pageId: '6df2983d2d8d4fe1bd95a96b404babb9'
     },
     {
       title: 'About',
-      pageId: 'db92214d309247369334059e66425725'
+      pageId: '6df2983d2d8d4fe1bd95a96b404babb9'
     }
   ]
 })
