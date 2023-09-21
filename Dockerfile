@@ -2,7 +2,7 @@ FROM node:lts-alpine as deps
 WORKDIR /opt
 RUN apk update && \
   apk add git && \
-  git clone --depth=1 https://github.com/transitive-bullshit/nextjs-notion-starter-kit.git && \
+  git clone --depth=1 https://github.com/kisakimana/notion-new.git && \
   cd nextjs-notion-starter-kit && \
   yarn install --frozen-lockfile && \
   yarn add @waline/client && \
